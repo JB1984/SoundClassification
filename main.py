@@ -9,11 +9,11 @@ from keras.layers import Conv2D, MaxPooling2D, GlobalAveragePooling2D
 from keras.callbacks import ModelCheckpoint
 
 # Set the path to the Metadata CSV file
-metadatapath = 'C:/Users/dju10/AudioNN/UrbanSound8K/metadata/UrbanSound8K.csv'
+metadatapath = ###Path to the Metadata csv file in the UrbanSound 8K dataset files
 #Set the path to the actual WAV files
-wavfiledatapath = 'C:/Users/dju10/AudioNN/UrbanSound8K/audio/'
+wavfiledatapath = ###Path to the folder containing each "Fold" 
 #Set the path to where you want to save the best model from each fold
-modelsavepath = 'C:/Users/dju10/AudioNN/saved_models/'
+modelsavepath = ###Path to the "saved_models" folder
 
 metadata = pd.read_csv(metadatapath)
 
